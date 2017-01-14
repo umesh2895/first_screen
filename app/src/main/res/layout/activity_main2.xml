@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.first.MainActivity"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="1300dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ngo_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to "
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NGO COLLAB"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What number should people use to reach you?"
+        android:textSize="14dp"
+        android:textColor="#696969"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:textColor="#696969"
+        android:layout_gravity="center_horizontal"
+        android:numeric="integer" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#D3D3D3"
+        android:textColor="#696969"
+        android:id="@+id/button"/>
+
+        />
+</LinearLayout>
